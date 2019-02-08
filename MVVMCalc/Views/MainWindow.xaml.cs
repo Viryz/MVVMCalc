@@ -23,6 +23,7 @@ namespace MVVMCalc
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new ViewModels.CalcViewModel();
         }
     }
 }
